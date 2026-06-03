@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google-antigravity"
+version = "15.0.0"
+description = "SDK Core para orquestación de agentes de investigación y MCP"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.28.0",
+]
